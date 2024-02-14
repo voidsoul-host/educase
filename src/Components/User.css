@@ -1,0 +1,51 @@
+.account-settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* padding: 16px; */
+    margin: 0 auto;
+    width: 300px;
+    height: 100vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .heading{
+    width: 100%;
+    padding: 16px;
+    font-size: 1.5rem;
+    /* margin-bottom: 16px; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+  }
+  .userDetails{
+    background-color: #ccc;
+    padding: 16px;
+    text-align: left;
+    height: 100%;
+  }
+  .userinfo{
+    display: flex;
+    gap: 0.8rem;
+  }
+  
+  .userpic, .userphoto{
+    border-radius: 50%;
+    height: 5rem;
+  }
+  .account-settings__name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .account-settings__email {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .account-settings__info {
+    font-size: 14px;
+    margin-top: 16px;
+    text-align: left;
+  }
